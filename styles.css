@@ -138,3 +138,15 @@
     gap: 12px;
     color: #505F79;     
 }
+@media (min-width: 960px) {
+    body{
+        background-color: #fff;
+        position: absolute;
+        width: 360px;
+        height: 740px;
+        left: 0px;
+        top: 0px;
+        margin: 0;      
+    }
+
+}
