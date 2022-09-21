@@ -182,14 +182,18 @@
 }
 
 .icons {
+  margin-top:0;
+  margin-left: 15px;
+  padding-left: 0;
   width: 170.17px;
-  height: 20px;
+  height: 10px;
   flex: none;
   order: 3;
   flex-grow: 0;
   display: flex;
   gap: 12px;
   color: #505f79;
+  list-style: none;
 }
 
 @media (min-width: 960px) {
