@@ -84,7 +84,7 @@
   left: 0.04px;
   top: 150.47px;
   width: 24px;
-  height: 32px;  
+  height: 32px;
 }
 
 .Ellipse3 {
@@ -93,7 +93,7 @@
   left: 323px;
   top: 152.24px;
   width: 45px;
-  height: 102px; 
+  height: 102px;
 }
 
 .Ellipse12 {
@@ -102,7 +102,7 @@
   left: 320.76px;
   top: 556.69px;
   width: 25px;
-  height: 13.5px; 
+  height: 13.5px;
 }
 
 .Rectangle4 {
@@ -112,7 +112,7 @@
   top: 118.79px;
   border-left: 0;
   width: 77px;
-  height: 65px; 
+  height: 65px;
 }
 
 .Rectangle7 {
@@ -121,9 +121,10 @@
   left: 127.18px;
   top: 149.59px;
   width: 24px;
-  height: 21px; 
+  height: 21px;
 }
-.Rectangle5{
+
+.Rectangle5 {
   background: url(./Assets/Rectangle5.png);
   position: absolute;
   left: 225px;
@@ -138,7 +139,7 @@
   left: 126.98px;
   top: 157.81px;
   width: 10px;
-  height: 12px; 
+  height: 12px;
 }
 
 .contact {
@@ -155,12 +156,12 @@
 }
 
 .Ellipse8 {
-  background-image: url(./Assets/Ellipse8.png);  
+  background-image: url(./Assets/Ellipse8.png);
   position: absolute;
   left: 214px;
   top: 110px;
   width: 15px;
-  height: 15px; 
+  height: 15px;
 }
 
 .Ellipse13 {
@@ -169,7 +170,7 @@
   left: 310.18px;
   top: 568.44px;
   width: 30px;
-  height: 25px; 
+  height: 25px;
 }
 
 .Ellipse4 {
@@ -178,11 +179,11 @@
   left: 237px;
   top: 657.1px;
   width: 20px;
-  height: 21px; 
+  height: 21px;
 }
 
 .icons {
-  margin-top:0;
+  margin-top: 0;
   margin-left: 15px;
   padding-left: 0;
   width: 170.17px;
