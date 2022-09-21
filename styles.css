@@ -15,3 +15,40 @@
     font-size: 18px;
     line-height: 20px;  
 }
+.Right{
+    margin-left: 20px;
+}
+.fa-bars{     
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;        
+}
+.Intro{
+    width: 327px;
+    height: 150px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 43px;
+    color:#172B4D;
+    margin-top: 40%;    
+    display: flex;    
+    align-items: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.description{
+    width: 327px;
+    height: 146px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 15px;    
+}
