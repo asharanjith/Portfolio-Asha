@@ -1,0 +1,17 @@
+.toolbar{
+    display: flex;
+    flex-direction: row;
+    gap: 210px;
+    color: #6070FF;
+}
+.logo{    
+    width: 76px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;  
+}
