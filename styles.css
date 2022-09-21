@@ -52,3 +52,89 @@
     flex-grow: 0;
     margin-left: 15px;    
 }
+.media-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 200px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Ellipse11{
+    position: absolute;
+    left: .04px;
+    top: 150.47px;        
+}
+.Ellipse3{
+    position: absolute;    
+    left: 323px;
+    top: 152.24px;
+}
+.Ellipse12{
+    position: absolute;    
+    left: 320.76px;
+    top: 556.69px;
+}
+.Rectangle4{
+    position: absolute;
+    left: 294px;
+    top: 118.79px;
+    border-left: 0;
+ }
+ .Rectangle7{
+    position: absolute;    
+    left: 127.18px;
+    top: 151.59px;    
+ }
+ .Ellipse5{
+    position: absolute;
+    left: 126.98px;
+    top: 157.81px;
+ }
+ .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 117px;
+    height: 45px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.Ellipse8{
+    position: absolute;
+    left: 214px;
+    top: 110px;
+}
+.Ellipse13{
+    position: absolute;
+    left: 310.18px;
+    top: 568.44px;
+}
+.Ellipse4{
+    position: absolute;
+    left: 237px;
+    top: 657.1px;
+}
+.icons{
+    width: 170.17px;
+    height: 20px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    display: flex;
+    gap: 12px;
+    color: #505F79;     
+}
