@@ -1,9 +1,14 @@
-
+body{
+  background-color: #E5E5E5;
+}
 .toolbar {
   display: flex;
-  flex-direction: row;
-  gap: 210px;
+  place-content: space-between;    
   color: #6070ff;
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+  border: 0;
 }
 
 .logo {
@@ -16,6 +21,7 @@
   font-style: normal;
   font-size: 18px;
   line-height: 20px;
+  color: #6070ff;
 }
 
 .Right {
@@ -39,9 +45,6 @@
   margin-top: 40%;
   display: flex;
   align-items: center;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .description {
@@ -53,15 +56,11 @@
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   margin-left: 15px;
 }
 
 .media-text {
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 0;
   gap: 8px;
@@ -73,9 +72,6 @@
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .Ellipse11 {
@@ -150,10 +146,7 @@
   gap: 16px;
   width: 117px;
   height: 45px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-}
+  }
 
 .Ellipse8 {
   background-image: url(./Assets/Ellipse8.png);
@@ -188,9 +181,6 @@
   padding-left: 0;
   width: 170.17px;
   height: 10px;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
   display: flex;
   gap: 12px;
   color: #505f79;
@@ -199,7 +189,6 @@
 
 @media (min-width: 960px) {
   body {
-    background-color: #fff;
     position: absolute;
     width: 360px;
     height: 740px;
