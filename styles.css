@@ -77,7 +77,6 @@ body {
 
 .Ellipse11 {
   background: url(./Assets/Ellipse11.png);
-  position: absolute;
   left: 0.04px;
   top: 150.47px;
   width: 24px;
@@ -190,7 +189,6 @@ body {
 
 @media (min-width: 960px) {
   body {
-    position: absolute;
     width: 360px;
     height: 740px;
     left: 0;
@@ -205,19 +203,15 @@ body {
 
 .Introduction {
   background-color: #fff;
-  position: absolute;
-  top: 65px;
+  position: static;
   margin: 0;
   border: 0;
-  display: block;
   width: 100%;
-  height: 800px;
+  height: 700px;
   border-radius: 0 0 0 75px;
 }
 
 .sample-project {
-  position: absolute;
-  top: 950px;
   background-color: #fff;
   height: 680px;
   margin: 100px 24px;
@@ -225,21 +219,6 @@ body {
   display: grid;
   gap: 1px;
   grid-template-areas: 'header header header' 'description description description' 'footer footer footer';
-}
-
-.project-2 {
-  position: absolute;
-  top: 1800px;
-}
-
-.project-3 {
-  position: absolute;
-  top: 2700px;
-}
-
-.project-4 {
-  position: absolute;
-  top: 3600px;
 }
 
 .item {
@@ -374,13 +353,11 @@ body {
 }
 
 #about-myself {
-  position: absolute;
-  top: 4500px;
   background-color: #fff;
   margin: 100px 24px;
   border-radius: 16px;
-  height: 1080px;
-  width: 100%;
+  height: 1150px;
+  width: 85%;
 }
 
 .about-title-box {
