@@ -6,6 +6,9 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .toolbar {
@@ -96,6 +99,8 @@ body {
     left: 0;
     top: 0;
     margin: 0;
+    border: 0;
+    padding: 0;
   }
 }
 
@@ -408,26 +413,28 @@ body {
 
 .contact-container {
   background: url(Assets/contactmebg.png) no-repeat center, #6070ff;
-  background-position: 110px 20px;
-  padding-top: 100px;
+  background-position: 180px 20px;
+  margin: 0;
+  padding: 0;
+  border: 0;
   border-top-left-radius: 100px;
   display: flex;
-  width: 90%;
+  width: 100%;
+  flex-wrap: wrap;
   flex-direction: column;
   height: 850px;
-  align-items: flex-start;
+  align-items: center;
   color: #fff;
   text-align: center;
 }
 
 .c-title-container {
-  align-self: center;
   font-size: 17px;
   line-height: 20px;
+  padding-top: 100px;
 }
 
 .c-desc-container {
-  align-self: center;
   width: 80%;
   font-style: normal;
   font-weight: 400;
@@ -436,11 +443,11 @@ body {
 }
 
 .contact-form {
-  align-self: center;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  width: 65%;
+  align-items: flex-start;
+  gap: 15px;
+  width: 100%;
   text-align: center;
   margin: 0 220px 50px 20px;
 }
@@ -449,6 +456,8 @@ body {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   color: #172b4d;
+  padding: 10px;
+  width: 80%;
 }
 
 .customer-message {
@@ -456,6 +465,8 @@ body {
   border-radius: 8px;
   font-size: 15px;
   color: #b3bac5;
+  padding: 10px;
+  width: 80%;
 }
 
 .submit {
@@ -469,5 +480,8 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  margin: 0;
+}
+
+.submit:hover {
+  scale: 1.2;
 }
