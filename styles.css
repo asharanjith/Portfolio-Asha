@@ -412,3 +412,54 @@ letter-spacing: 0.03em;
   color: #fff;
   text-align: center;        
 }
+.c-title-container{
+   
+  align-self: center; 
+  font-size: 17px;
+  line-height: 20px; 
+
+}
+.c-desc-container{
+  align-self: center;
+  width: 80%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.contact-form{  
+  align-self: center; 
+  display: flex;
+  flex-direction: column;
+  gap:20px;     
+  width:65%; 
+  
+  text-align: center;
+  margin:0px 220px 50px 20px;
+}
+.customer-info{
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  color: #172B4D;    
+  
+}
+.customer-message{
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #B3BAC5;
+}
+.submit{
+  letter-spacing: 0.03em;
+  color:#6070FF;;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;  
+  margin: 0;
+  
+}
