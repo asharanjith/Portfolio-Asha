@@ -397,3 +397,18 @@ letter-spacing: 0.03em;
 .description-item{
   color: #344563;
 }
+.contact-container{   
+  width: 100%;
+  background: url(Assets/contactmebg.png) no-repeat center  ,#6070ff; 
+  background-position: 110px 20px;
+  padding-top: 100px;
+  border-top-left-radius: 100px;
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  height: 850px;
+  align-items: flex-start;
+  
+  color: #fff;
+  text-align: center;        
+}
