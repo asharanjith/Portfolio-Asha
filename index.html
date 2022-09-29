@@ -8,36 +8,340 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
 </head>
 <body>
-    <header class="toolbar">
-        <a href="#" class="logo">My logo</a>
-        <nav class="fas fa-bars"></nav>
-    </header>
-        <div class="Ellipse11"></div>
-        <div class="Ellipse3"></div>
-        <div class="Rectangle4"></div>
-        <div class="Rectangle7"></div>
-        <div class="Ellipse5"></div>
-        <div class="Ellipse8"></div>
-        
-        <section>
-            <h1 class="Right Intro">Namaste!<br> I'm Asha</h1>
-            <p class="description">I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        </section>
-        <div class="Right contact">
-            <p class="media-text">LET’S CONNECT</p>
+    
+      
+        <nav class="nav-bar">
+          <a href="#" class="logo">My logo</a>
+          <i class="fas fa-bars" id="hamburger"></i>
+          
+          <ul class="nav-list">
+            
+            <li class="nav-items">Portfolio</li>
+            <li class="nav-items">About</li>
+            <li class="nav-items">Contact</li>
+          </ul>
+        </nav>
+    
+    <main>
+      <section class="Introduction">
+        <div class="Intro-container">
+          
+          <h1 class="Intro">Namaste!<br> I'm Asha</h1>
+          <p class="description">I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+          
+          <div class="contact"></div>
+          <h4 class="media-text">LET’S CONNECT</h4>
+          
+            
+          
+            <ul class="icons">            
+              <li><a href="https://twitter.com/asha_cep" target="_blank" class="media-link" rel="noopener"><i class='fab fa-twitter'></i></a></li> 
+              <li><a href="https://www.linkedin.com/in/asha-vijayan-67179a18" target="_blank" class="media-link" rel="noopener"><i class='fab fa-linkedin'></i></a></li>
+              <li><a href="https://medium.com/" target="_blank" class="media-link" rel="noopener"><i class='fab fa-medium-m'></i></a></li>
+              <li><a href="https://github.com/asharanjith" target="_blank" class="media-link" rel="noopener"><i class='fab fa-github'></i></a></li>
+              <li><a href="https://angel.co/asha-sethu-vijayan" target="_blank" class="media-link" rel="noopener"><i class='fab fa-angellist'></i></a></li>
+            </ul>
+          </div>
         </div>
-        <ul class="Right icons">            
-            <li><a href="https://twitter.com/asha_cep" target="_blank" class="media-link" rel="noopener"><i class='fab fa-twitter'></i></a></li> 
-            <li><a href="https://www.linkedin.com/in/asha-vijayan-67179a18" target="_blank" class="media-link" rel="noopener"><i class='fab fa-linkedin'></i></a></li>
-            <li><a href="https://medium.com/" target="_blank" class="media-link" rel="noopener"><i class='fab fa-medium-m'></i></a></li>
-            <li><a href="https://github.com/asharanjith" target="_blank" class="media-link" rel="noopener"><i class='fab fa-github'></i></a></li>
-            <li><a href="https://angel.co/asha-sethu-vijayan" target="_blank" class="media-link" rel="noopener"><i class='fab fa-angellist'></i></a></li>
-        </ul>
-        <div class="Ellipse12"></div>
-        <div class="Ellipse13"></div>
-        <div class="Ellipse4"></div>
-        <div class="Rectangle5"></div>
+      </section>
+        
+        <section id="projects">
+            <div class="sample-project project-normal">
+                <div class="project-header ">
+                    <div class="image-holder">
+                        <img src="./Assets/SnapshootPortfolio.png" alt="header" class="header-img mobile  bg1"/>
+                        <img src="./Desktop/SnapshootDesktop.svg" alt="header" class="header-img desktop"/>
+                    </div>
+
+                </div>
+                <div class="project-content">
+                    <div class="project-description">
+                      <div class="title-container">
+                        <h4 class="description-title">Tonic</h4>
+                      </div>
+                      <div class="subtitle-container">
+                        <ul class="subtitle-items">
+                          <li class="list-less"><p>CANOPY</p></li>
+                          <li class="list"><p>Back End Dev</p></li>
+                          <li class="list"><p>2015</p></li>
+                        </ul>
+                      </div>
+                      <div class="article-container">
+                        <p class="description-item">
+                          A daily selection of privately perosonalized reads; no accounts
+                          or sign-ups required.
+                        </p>
+                      </div>
+                      <div class="tag-container">
+                        <ul class="tag-item">
+                          <li class="tag-list-item tag-btn">html</li>
+                          <li class="tag-list-item tag-btn">css</li>
+                          <li class="tag-list-item tag-btn">javaScript</li>
+                        </ul>
+                      </div>
+                      <div class="buttom-container">
+                        <input type="button" value="See Project" class="project-buttom" />
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sample-project project-reverse row">
+                <div class="project-header ">
+                    <div class="image-holder bg">
+                        <img src="./Assets/SnapshootPortfolio1.png" alt="header" class="header-img mobile"/>
+                        <img src="./Desktop/SnapshootDesktop2.svg" alt="header" class="header-img desktop"/>
+                    </div>
+
+                </div>
+                <div class="project-content">
+                    <div class="project-description">
+                      <div class="title-container">
+                        <h4 class="description-title">Multi-Post Stories</h4>
+                      </div>
+                      <div class="subtitle-container">
+                        <ul class="subtitle-items">
+                          <li class="list-less mobile"><p>CANOPY</p></li>
+                          <li class="list-less desktop"><p>FACEBOOK</p></li>
+                          <li class="list mobile"><p>Back End Dev</p></li>
+                          <li class="list desktop"><p>Full Stack Dev</p></li>
+                          <li class="list"><p>2015</p></li>
+                        </ul>
+                      </div>
+                      <div class="article-container">
+                        <p class="description-item mobile">
+                          A daily selection of privately perosonalized reads; no accounts
+                          or sign-ups required.
+                        </p>
+                        <p class="description-item desktop">
+                          Experimental content creation feature
+                           that allows users to add to an existing story over the course of a day without
+                            spamming their friends.
+                        </p>
+                      </div>
+                      <div class="tag-container">
+                        <ul class="tag-item">
+                          <li class="tag-list-item tag-btn">html</li>
+                          <li class="tag-list-item tag-btn desktop">Ruby on rails</li>
+                          <li class="tag-list-item tag-btn">css</li>
+                          <li class="tag-list-item tag-btn">javaScript</li>
+                        </ul>
+                      </div>
+                      <div class="buttom-container">
+                        <input type="button" value="See Project" class="project-buttom" />
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sample-project project-normal">
+                <div class="project-header ">
+                    <div class="image-holder bg">
+                        <img src="./Assets/SnapshootPortfolio2.png" alt="header" class="header-img mobile"/>
+                        <img src="./Desktop/SnapshootDesktop3.svg" alt="header" class="header-img desktop"/>
+                    </div>
+
+                </div>
+                <div class="project-content">
+                    <div class="project-description">
+                      <div class="title-container">
+                        <h4 class="description-title mobile">Tonic</h4>
+                        <h4 class="description-title desktop">Facebook 360</h4>
+                      </div>
+                      <div class="subtitle-container">
+                        <ul class="subtitle-items">
+                          <li class="list-less mobile"><p>CANOPY</p></li>
+                          <li class="list-less desktop"><p>Facebook</p></li>
+                          <li class="list mobile"><p>Back End Dev</p></li>
+                          <li class="list desktop"><p>Back End Dev</p></li>
+                          <li class="list"><p>2015</p></li>
+                        </ul>
+                      </div>
+                      <div class="article-container">
+                        <p class="description-item mobile">
+                          A daily selection of privately perosonalized reads; no accounts
+                          or sign-ups required.
+                        </p>
+                        <p class="description-item desktop">
+                          Exploring the future of media in Facebook's
+                           first Virtual Reality app; a place to discover
+                            and enjoy 360 photos and videos on Gear VR.
+                        </p>
+                      </div>
+                      <div class="tag-container">
+                        <ul class="tag-item">
+                          <li class="tag-list-item tag-btn">html</li>
+                          <li class="tag-list-item tag-btn">css</li>
+                          <li class="tag-list-item tag-btn">javaScript</li>
+                        </ul>
+                      </div>
+                      <div class="buttom-container">
+                        <input type="button" value="See Project" class="project-buttom" />
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sample-project project-reverse">
+                <div class="project-header">
+                    <div class="image-holder bg">
+                        <img src="./Assets/SnapshootPortfolio3.png" alt="header" class="header-img mobile"/>
+                        <img src="./Desktop/SnapshootDesktop4.svg" alt="header" class="header-img desktop"/>
+                    </div>
+
+                </div>
+                <div class="project-content">
+                    <div class="project-description">
+                      <div class="title-container">
+                        <h4 class="description-title mobile">Multi-Post Stories</h4>
+                        <h4 class="description-title desktop">Uber Navigation</h4>
+                      </div>
+                      <div class="subtitle-container">
+                        <ul class="subtitle-items">
+                          <li class="list-less mobile"><p>CANOPY</p></li>
+                          <li class="list-less desktop"><p>Uber</p></li>
+                          <li class="list mobile"><p>Back End Dev</p></li>
+                          <li class="list desktop"><p>Lead Developer</p></li>
+                          <li class="list mobile"><p>2015</p></li>
+                          <li class="list desktop"><p>2018</p></li>
+                        </ul>
+                      </div>
+                      <div class="article-container">
+                        <p class="description-item mobile">
+                          A daily selection of privately perosonalized reads; no accounts
+                          or sign-ups required.
+                        </p>
+                        <p class="description-item desktop">
+                          A smart assistant to make driving more safe,
+                           efficient, and fun by unlocking your most
+                            expensive computer: your car.
+                        </p>
+                      </div>
+                      <div class="tag-container">
+                        <ul class="tag-item">
+                          <li class="tag-list-item tag-btn">html</li>
+                          <li class="tag-list-item tag-btn desktop">Ruby on rails</li>
+                          <li class="tag-list-item tag-btn">css</li>
+                          <li class="tag-list-item tag-btn">javaScript</li>
+                        </ul>
+                      </div>
+                      <div class="buttom-container">
+                        <input type="button" value="See Project" class="project-buttom" />
+                      </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <section id="about-myself">
+         <div class="about-content">
+            <div class="about-1">
+                <div class="about-title-box">
+                    <h2 class="about-header">About myself</h2>
+                </div>
+                <div class="about-desc-box">
+                    <p class="description-item">Hello I’m a software developer! I can help you build a product ,
+                       feature or website Look through some of my work and experience! 
+                       If you like what you see and have a project you need coded, 
+                       don’t hestiate to contact me.
+                    </p>
+                </div>
+                <div class="contact">
+                    <h4 class="right media-text">LET’S CONNECT</h4>
+                
+                    <ul class="right icons">            
+                      <li><a href="https://twitter.com/asha_cep" target="_blank" class="media-link" rel="noopener"><i class='fab fa-twitter'></i></a></li> 
+                      <li><a href="https://www.linkedin.com/in/asha-vijayan-67179a18" target="_blank" class="media-link" rel="noopener"><i class='fab fa-linkedin'></i></a></li>
+                      <li><a href="https://medium.com/" target="_blank" class="media-link" rel="noopener"><i class='fab fa-medium-m'></i></a></li>
+                      <li><a href="https://github.com/asharanjith" target="_blank" class="media-link" rel="noopener"><i class='fab fa-github'></i></a></li>
+                      <li><a href="https://angel.co/asha-sethu-vijayan" target="_blank" class="media-link" rel="noopener"><i class='fab fa-angellist'></i></a></li>
+                  </ul>
+                </div>
+                <div class="buttom-container">
+                    <a href="#" class="project-buttom">Get my resume</a>
+                </div>
+            </div>
+            <div class="about-2">
+                <div class="about-skills-box">
+                    <div class="skills-box click">
+                        <div class="skills">
+                            <ul>
+                                <li><a href="#" class="skill-link">Languages</a></li>
+                            </ul>
+                        </div>
+                        <div class="v-icon">                            
+                        </div>
+                    </div>
+                    <div class="languauge-box">
+                        <ul class="langs">
+                            <li class="lang">
+                                <div class="lang-form">
+                                  <div class="js-icon lang-icon"></div>
+                                  <p class="lang-title">JavaScript</p>
+                                </div>
+                            </li>
+                            <li class="lang">
+                                <div class="lang-form">
+                                  <div class="html-icon lang-icon"></div>
+                                  <p class="lang-title">HTML</p>
+                                </div>
+                            </li>
+                            <li class="lang">
+                                <div class="lang-form">
+                                  <div class="css-icon lang-icon"></div>
+                                  <p class="lang-title">CSS</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills">
+                            <ul>
+                                <li><a href="#" class="skill-link">Frameworks</a></li>
+                            </ul>
+                        </div>
+                        <div class="v-icon rotate">
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills">
+                            <ul>
+                                <li><a href="#" class="skill-link">Skills</a></li>
+                            </ul>
+                        </div>
+                        <div class="v-icon rotate">
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </section>
+        <section class="contact-section">
+          <div class="contact-container">
+            
+            <div class="c-title-container">
+              <h2 class="c-title">Contact me</h2>
+            </div>
+            <div class="c-desc-container">
+              <p class="c-desc">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            </div>
+            <div class="form-container">
+              <form class="contact-form" action="https://formspree.io/f/xdojgvqp" method="post">
+                <input type="text" name="Full Name" placeholder="Enter Full-name" class="customer-info" minlength="2" maxlength="30" required >
+                <input type="email" name="Email" placeholder="abc@example.com" class="customer-info" required>
+                <textarea name="Message" rows="6" placeholder="Enter your message here" class="customer-message" required minlength="15" maxlength="500"></textarea>
+                <div class="submit-button">
+                  <button name="Submit" id="Button" class="submit">Get In Touch</button>                  
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </section>
+
+
+    </main>
 </body>
 </html>
