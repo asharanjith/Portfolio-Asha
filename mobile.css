@@ -1,49 +1,52 @@
 @media (max-width: 768px) {
-  
-    .nav-list{
-        display: none;
-        
-    }
-    .nav-bar{
-        padding: 10px; 
-    }
-    .Introduction {
-        background: url(Assets/header.png) no-repeat center, #fff;
-        background-size:contain;
-        padding: 10px;
-        
-    }
-    #hamburger{
-        align-self: flex-end;
-    }
-    .contact-container {
-        background: url(Assets/contactmebg.png) no-repeat center, #6070ff;
-        background-position: 180px 20px;
-        background-size: contain;
-       
-    }
-    .desktop{   
-        display: none;
-    }
-        .contact-form{
-            width: 100%;
-        }
-    .customer-info{
-        width: 85%;
-    }
-    .customer-message{
-        width: 85%;
-    }
-    .langs {
-        display: flex;
-        margin-top: 5px;
-        flex-direction: column;
-      }
-    
-    .about-content{
-        
-        display: flex;
-        flex-direction: column;
-       
-    }
-    }
+  .nav-list {
+    display: none;
+  }
+
+  .nav-bar {
+    padding: 10px;
+  }
+
+  .Introduction {
+    background: url(Assets/header.png) no-repeat center, #fff;
+    background-size: contain;
+    padding: 10px;
+  }
+
+  #hamburger {
+    align-self: flex-end;
+  }
+
+  .contact-container {
+    background: url(Assets/contactmebg.png) no-repeat center, #6070ff;
+    background-position: 180px 20px;
+    background-size: contain;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .customer-info {
+    width: 85%;
+  }
+
+  .customer-message {
+    width: 85%;
+  }
+
+  .langs {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
