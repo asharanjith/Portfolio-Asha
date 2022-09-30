@@ -160,7 +160,7 @@ body {
 }
 
 .tag-container {
-  padding: 0 0 0 25px;
+  padding: 0 0 0 15px;
   position: relative;
   left: -50px;
 }
@@ -179,10 +179,10 @@ body {
   font-size: 12px;
   letter-spacing: 0.03em;
   background-color: #d9d9f5;
-  border-radius: 9px;
-  opacity: 0.5;
+  border-radius: 5px;
   color: #6070ff;
-  padding: 4px 4px;
+  flex-grow: 0;
+  padding: 0 4px 0 4px;
 }
 
 .buttom-container {

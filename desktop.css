@@ -13,8 +13,6 @@
     list-style: none;
     width: 30%;
     gap: 20px;
-
-    /* padding: 20px; */
     padding-right: 100px;
     font-style: normal;
     font-weight: 500;
@@ -48,10 +46,6 @@
     display: none;
   }
 
-  .sample-project {
-    margin: 142px;
-  }
-
   .description-title {
     font-weight: 700;
     font-size: 40px;
@@ -66,21 +60,22 @@
 
   .about-content {
     display: flex;
-    padding: 60px;
+    align-items: flex-end;
+    padding-bottom: 100px;
   }
 
   .about-1 {
     width: 50%;
   }
 
-  .about-2 {
-    flex-grow: 0;
-    align-self: center;
-  }
-
   .langs {
     display: flex;
     margin-top: 5px;
+  }
+
+  .lang-form {
+    display: flex;
+    flex-direction: column;
   }
 
   .c-desc-container {
