@@ -15,7 +15,7 @@ body {
   background-color: #fff;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  padding-top: 10px;
 }
 
 .logo {
@@ -23,14 +23,15 @@ body {
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
-  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
   align-self: center;
   padding-left: 50px;
 }
 
 .Introduction {
-  width: 100%;
   border-radius: 0 0 0 75px;
+  background: url(Assets/header.png) no-repeat center, #fff;
+  background-size: contain;
 }
 
 .Intro-container {
@@ -38,8 +39,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding-top: 50px;
-  width: 80%;
   padding-bottom: 100px;
   margin-left: 9%;
 }
@@ -50,6 +49,7 @@ body {
   font-size: 40px;
   line-height: 52px;
   padding-top: 50px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .description {
@@ -60,6 +60,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-weight: 500;
   gap: 8px;
   color: #7f8cff;
 }
@@ -111,7 +112,6 @@ body {
 .image-holder {
   margin: auto;
   border-radius: 8px;
-  width: 100%;
 }
 
 .header-img {
@@ -119,24 +119,18 @@ body {
   object-fit: contain;
 }
 
-.title-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-
 .description-title {
   color: #172b4d;
   padding: 0 0 0 12px;
   width: 100%;
   line-height: 44px;
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 800;
+  font-size: 40px;
+  font-style: normal;
+  margin: 24px 0 0 0;
 }
 
 .subtitle-container {
-  width: 110%;
   font-size: 13px;
   font-weight: 600;
   margin-top: 0;
@@ -162,7 +156,7 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
-  opacity: 0.5;
+  line-height: 16px;
 }
 
 .tag-container {
@@ -188,7 +182,7 @@ body {
   border-radius: 9px;
   opacity: 0.5;
   color: #6070ff;
-  padding: 4px 12px;
+  padding: 4px 4px;
 }
 
 .buttom-container {
@@ -196,8 +190,6 @@ body {
   padding: 0 0 0 14px;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
-  height: 100px;
 }
 
 .project-buttom {
@@ -210,8 +202,6 @@ body {
   border-radius: 8px;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
 }
 
 .bg {
@@ -226,7 +216,6 @@ body {
 #about-myself {
   background-color: #fff;
   border-radius: 0 100px 0 0;
-  width: 100%;
 }
 
 .about-title-box {
@@ -252,7 +241,8 @@ body {
 .skills-box {
   display: flex;
   flex-direction: row;
-  margin-bottom: 5px;
+  margin: 5px;
+  padding-right: 5px;
   border-bottom: 1px solid #dfe1e6;
   justify-content: space-between;
 }
@@ -346,8 +336,10 @@ body {
   align-items: center;
   color: #fff;
   text-align: center;
-  background-color: #fff;
   border-color: white;
+  background: url(Assets/contactmebg.png) no-repeat center, #6070ff;
+  background-position: 180px 20px;
+  background-size: contain;
 }
 
 .c-title-container {
@@ -379,7 +371,7 @@ body {
   border-radius: 8px;
   color: #172b4d;
   padding: 10px;
-  width: 100%;
+  width: 85%;
 }
 
 .customer-message {
@@ -388,7 +380,7 @@ body {
   font-size: 15px;
   color: #b3bac5;
   padding: 10px;
-  width: 100%;
+  width: 85%;
 }
 
 .submit {
@@ -424,4 +416,16 @@ body {
 
 .project-buttom:active {
   background: #2230d2;
+}
+
+.desktop {
+  display: none;
+}
+
+.nav-list {
+  display: none;
+}
+
+#hamburger {
+  padding-right: 20px;
 }
