@@ -5,8 +5,8 @@ This is my portfolio demonstrating the skills I have acquired and the projects I
 
 ##- Major languages: HTML, CSS
 
-Check out my portfolio:
-- You can checkout the live version of the site in https://asharanjith.github.io/gi
+ ##Live Version:
+ https://github.com/asharanjith/Portfolio-Asha.git
 
 👤 **Author**
 
