@@ -430,7 +430,7 @@ body {
   padding-right: 20px;
 }
 
-.mobile-menu{
+.mobile-menu {
   display: none;
   flex-direction: column;
   height: 100%;
@@ -440,26 +440,30 @@ body {
   z-index: 100;
   backdrop-filter: blur(10px);
 }
-.mobile-menu i{
+
+.mobile-menu i {
   color: #fff;
   font-size: 30px;
   right: 0;
   margin-left: 85%;
   margin-top: 5%;
 }
-.mobile-menu i:hover{
-      cursor: pointer;
+
+.mobile-menu i:hover {
+  cursor: pointer;
 }
-.mobile-menu-items{
+
+.mobile-menu-items {
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
-  line-height: 44px;  
+  line-height: 44px;
   margin-left: 10%;
   margin-top: 5%;
 }
-.mobile-menu-items:hover{
-  cursor: pointer ;
+
+.mobile-menu-items:hover {
+  cursor: pointer;
 }
