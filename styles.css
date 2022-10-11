@@ -11,11 +11,11 @@ body {
 }
 
 .nav-bar {
+  position: sticky;
   color: #6070ff;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
 }
 
 .logo {
@@ -161,8 +161,7 @@ body {
 
 .tag-container {
   padding: 0 0 0 15px;
-  position: relative;
-  left: -50px;
+  z-index: 1;
 }
 
 .tag-item {
@@ -171,6 +170,7 @@ body {
   gap: 10px;
   list-style: none;
   color: #6070ff;
+  padding: 0;
 }
 
 .tag-btn {
@@ -438,8 +438,10 @@ body {
   background-color: #6070ff;
   opacity: 0.9;
   position: fixed;
-  z-index: 1000;
-  backdrop-filter: blur(8px);
+  z-index: 100000;
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
+  overflow: hidden;
 }
 
 .mobile-menu i {
