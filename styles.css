@@ -433,12 +433,13 @@ body {
 .mobile-menu {
   display: none;
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-color: #6070ff;
+  opacity: 0.9; 
   position: fixed;
-  z-index: 100;
-  backdrop-filter: blur(10px);
+  z-index: 1000;
+  backdrop-filter: blur(8px);
 }
 
 .mobile-menu i {
@@ -457,8 +458,8 @@ body {
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
+  font-weight: 600;
+  font-size: 32px;
   line-height: 44px;
   margin-left: 10%;
   margin-top: 5%;
