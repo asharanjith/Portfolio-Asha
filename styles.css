@@ -11,11 +11,11 @@ body {
 }
 
 .nav-bar {
+  position: sticky;
   color: #6070ff;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
 }
 
 .logo {
@@ -161,8 +161,7 @@ body {
 
 .tag-container {
   padding: 0 0 0 15px;
-  position: relative;
-  left: -50px;
+  z-index: 1;
 }
 
 .tag-item {
@@ -171,6 +170,7 @@ body {
   gap: 10px;
   list-style: none;
   color: #6070ff;
+  padding: 0;
 }
 
 .tag-btn {
@@ -428,4 +428,45 @@ body {
 
 #hamburger {
   padding-right: 20px;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #6070ff;
+  opacity: 0.9;
+  position: fixed;
+  z-index: 100000;
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
+  overflow: hidden;
+}
+
+.mobile-menu i {
+  color: #fff;
+  font-size: 30px;
+  right: 0;
+  margin-left: 85%;
+  margin-top: 5%;
+}
+
+.mobile-menu i:hover {
+  cursor: pointer;
+}
+
+.mobile-menu-items {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.mobile-menu-items:hover {
+  cursor: pointer;
 }

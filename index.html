@@ -7,27 +7,38 @@
     <title>Portfolio Asha</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap' rel='stylesheet'>
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="desktop.css">
+    <script src="https://kit.fontawesome.com/a6f7ce814a.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
 
         <nav class="nav-bar">
-          <a href="#" class="logo">My logo</a>
+          <a href="#" class="logo">Asha Vijayan</a>
           <i class="fas fa-bars" id="hamburger"></i>
+          <div class="mobile-menu">
+            <i class="fa-solid fa-xmark"></i>
+            <a class="mobile-menu-items main-section">Portfolio</a>
+            <a class="mobile-menu-items about-section">About</a>
+            <a class="mobile-menu-items contact-section">Contact</a>
+    
+          </div>
           
           <ul class="nav-list">
             
             <li class="nav-items">Portfolio</li>
             <li class="nav-items">About</li>
             <li class="nav-items">Contact</li>
+
           </ul>
+          
         </nav>
+        
     
     <main>
-      <section class="Introduction">
+      <section class="Introduction" id="introductionMain">
         <div class="Intro-container">
           
           <h1 class="Intro">Namaste! <br>I'm Asha</h1>
@@ -318,7 +329,7 @@
             </div>
          </div>
         </section>
-        <section class="contact-section">
+        <section class="contact-section" id="contactMeID">
           <div class="contact-container">
             
             <div class="c-title-container">
@@ -343,5 +354,6 @@
 
 
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
