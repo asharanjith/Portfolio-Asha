@@ -97,5 +97,26 @@
 
   .project-content {
     width: 45%;
+    align-items: flex-start;
+  }
+
+  .modal-desc {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    object-fit: contain;
+  }
+
+  .modal-buttom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .line {
+    border-top: 1px solid #ebecf0;
+    width: 90%;
   }
 }

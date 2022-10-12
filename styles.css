@@ -135,6 +135,7 @@ body {
   font-weight: 600;
   margin-top: 0;
   border-top: 0;
+  text-align: center;
 }
 
 .subtitle-items {
@@ -142,6 +143,7 @@ body {
   flex-direction: row;
   padding: 0 0 0 16px;
   gap: 30px;
+  align-items: center;
 }
 
 .list-less {
@@ -182,12 +184,12 @@ body {
   border-radius: 5px;
   color: #6070ff;
   flex-grow: 0;
-  padding: 0 4px 0 4px;
+  padding: 0 12px 0 12px;
 }
 
 .buttom-container {
   display: flex;
-  padding: 0 0 0 14px;
+  margin-left: 4%;
   justify-content: flex-start;
   align-items: center;
 }
@@ -236,6 +238,11 @@ body {
 
 .description-item {
   color: #344563;
+}
+
+.article-container {
+  align-self: flex-start;
+  margin-left: 3%;
 }
 
 .skills-box {
@@ -469,4 +476,15 @@ body {
 
 .mobile-menu-items:hover {
   cursor: pointer;
+}
+
+.nodisplay {
+  display: none;
+}
+
+.modal-buttom-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 20px 0;
 }
