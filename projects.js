@@ -1,51 +1,51 @@
 const projectDetails = [
-    {
-        descriptionTitle: 'Tonic',
-        descriptionItem: 'A daily selection of privately perosonalized reads; no accounts or sign-ups required.',
-        tagBtn: ['Html', 'Css', 'Javascript',''],
-        headerImgM: './Assets/SnapshootPortfolio.png',
-        headerImgD: './Desktop/SnapshootDesktop.svg',
-        subHead: 'CANOPY',
-        job: 'Back End Dev',
-        year: 2015,
-    },
-    {
-        descriptionTitle: 'Multi-Post Stories',
-        descriptionItem: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-        tagBtn: ['Html', 'Css', 'Javascript','Ruby on rails'],
-        headerImgM: './Assets/SnapshootPortfolio1.png',
-        headerImgD: './Desktop/SnapshootDesktop2.svg',
-        subHead: 'FACEBOOK',
-        job: 'Full Stack Dev',
-        year: 2015,
-    },
-    {
-        descriptionTitle: 'Facebook 360',
-        descriptionItem: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-        tagBtn: ['Html','Css', 'Javascript',''],
-        headerImgM: './Assets/SnapshootPortfolio2.png',
-        headerImgD: './Desktop/SnapshootDesktop3.svg',
-        subHead: 'Facebook',
-        job: 'Back End Dev',
-        year: 2015,
-    },
-    {
-        descriptionTitle: 'Uber Navigation',
-        descriptionItem: 'A smart assistant to make driving more safe,efficient, and fun by unlocking your most expensive computer: your car.',
-        tagBtn: ['Html','Css', 'Javascript', 'Ruby on rails'],
-        headerImgM: './Assets/SnapshootPortfolio3.png',
-        headerImgD: './Desktop/SnapshootDesktop4.svg',
-        subHead: 'Uber',
-        job: 'Lead Developer',
-        year: 2018,
-            },
+  {
+    descriptionTitle: 'Tonic',
+    descriptionItem: 'A daily selection of privately perosonalized reads; no accounts or sign-ups required.',
+    tagBtn: ['Html', 'Css', 'Javascript', ''],
+    headerImgM: './Assets/SnapshootPortfolio.png',
+    headerImgD: './Desktop/SnapshootDesktop.svg',
+    subHead: 'CANOPY',
+    job: 'Back End Dev',
+    year: 2015,
+  },
+  {
+    descriptionTitle: 'Multi-Post Stories',
+    descriptionItem: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    tagBtn: ['Html', 'Css', 'Javascript', 'Ruby on rails'],
+    headerImgM: './Assets/SnapshootPortfolio1.png',
+    headerImgD: './Desktop/SnapshootDesktop2.svg',
+    subHead: 'FACEBOOK',
+    job: 'Full Stack Dev',
+    year: 2015,
+  },
+  {
+    descriptionTitle: 'Facebook 360',
+    descriptionItem: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    tagBtn: ['Html', 'Css', 'Javascript', ''],
+    headerImgM: './Assets/SnapshootPortfolio2.png',
+    headerImgD: './Desktop/SnapshootDesktop3.svg',
+    subHead: 'Facebook',
+    job: 'Back End Dev',
+    year: 2015,
+  },
+  {
+    descriptionTitle: 'Uber Navigation',
+    descriptionItem: 'A smart assistant to make driving more safe,efficient, and fun by unlocking your most expensive computer: your car.',
+    tagBtn: ['Html', 'Css', 'Javascript', 'Ruby on rails'],
+    headerImgM: './Assets/SnapshootPortfolio3.png',
+    headerImgD: './Desktop/SnapshootDesktop4.svg',
+    subHead: 'Uber',
+    job: 'Lead Developer',
+    year: 2018,
+  },
 ];
-const works= document.querySelector('.projects');
+const works = document.querySelector('.projects');
 
-for(let i=0; i<projectDetails.length; i++){
-    const work = document.createElement('div');
-    work.classList.add('project');
-    work.innerHTML = `
+for (let i = 0; i < projectDetails.length; i += 1) {
+  const work = document.createElement('div');
+  work.classList.add('project');
+  work.innerHTML = `
     <div class="sample-project ">
         <div class="project-header ">
             <div class="image-holder">
@@ -85,19 +85,16 @@ for(let i=0; i<projectDetails.length; i++){
         </div>
     </div>
     `;
-    works.appendChild(work);
+  works.appendChild(work);
 }
 
-const cards= document.querySelectorAll('.sample-project');
-const removeitem= document.querySelectorAll('.fourth');
-for(let j=0; j<cards.length; j++){
-    if(j%2===1){
-        cards[j].classList.add('project-reverse');
-
-    }
-    else
-    {
-        cards[j].classList.add('project-normal');
-        removeitem[j].classList.add('nodisplay');
-    }
+const cards = document.querySelectorAll('.sample-project');
+const removeitem = document.querySelectorAll('.fourth');
+for (let j = 0; j < cards.length; j += 1) {
+  if (j % 2 === 1) {
+    cards[j].classList.add('project-reverse');
+  } else {
+    cards[j].classList.add('project-normal');
+    removeitem[j].classList.add('nodisplay');
+  }
 }

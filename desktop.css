@@ -50,13 +50,13 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-  } 
+  }
 
   .list-less {
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-  } 
+  }
 
   .about-content {
     display: flex;
@@ -82,41 +82,41 @@
     width: 35%;
   }
 
-   .project-reverse {
+  .project-reverse {
     border-radius: 25px;
     display: flex;
     padding: 10px;
     flex-direction: row-reverse;
-  } 
+  }
 
   .project-normal {
     border-radius: 25px;
     display: flex;
     padding: 10px;
-  } 
+  }
 
   .project-content {
-    width: 45%; 
+    width: 45%;
     align-items: flex-start;
-  } 
-    .modal-desc{
+  }
+
+  .modal-desc {
     display: grid;
     grid-template-columns: 2fr 1fr;
     object-fit: contain;
-    
   }
-  .modal-buttom-container{
+
+  .modal-buttom-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 90%;
     margin-top: 15px;
     margin-left: 10px;
-    
   }
-  .line{
-    border-top: 1px solid #EBECF0;
-    width:90%;
+
+  .line {
+    border-top: 1px solid #ebecf0;
+    width: 90%;
   }
- 
 }

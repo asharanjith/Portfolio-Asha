@@ -1,52 +1,52 @@
 const modals = [
-    {
-        descriptionTitle: 'Tonic',
-        descriptionItem: 'lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        tagBtn: ['Html', 'Css', 'Javascript','Github','Ruby','Bootstrap'],
-        headerImgM: './Assets/SnapshootPortfolio.png',
-        headerImgD: './Desktop/SnapshootDesktop.svg',
-        subHead: 'CANOPY',
-        job: 'Back End Dev',
-        year: 2015,
-        
-    },
-    {
-        descriptionTitle: 'Multi-Post Stories',
-        descriptionItem: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        tagBtn: ['Html', 'Css', 'Javascript','Github','Ruby','Bootstrap'],
-        headerImgM: './Assets/SnapshootPortfolio1.png',
-        headerImgD: './Desktop/SnapshootDesktop2.svg',
-        subHead: 'FACEBOOK',
-        job: 'Full Stack Dev',
-        year: 2015,
-        
-    },
-    {
-        descriptionTitle: 'Facebook 360',
-        descriptionItem: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        tagBtn: ['Html','Css', 'Javascript','Github','Ruby','Bootstrap'],
-        headerImgM: './Assets/SnapshootPortfolio2.png',
-        headerImgD: './Desktop/SnapshootDesktop3.svg',
-        subHead: 'Facebook',
-        job: 'Back End Dev',
-        year: 2015,
-            },
-    {
-        descriptionTitle: 'Uber Navigation',
-        descriptionItem: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        tagBtn: ['Html','Css', 'Javascript', 'Github','Ruby','Bootstrap'],
-        headerImgM: './Assets/SnapshootPortfolio3.png',
-        headerImgD: './Desktop/SnapshootDesktop4.svg',
-        subHead: 'Uber',
-        job: 'Lead Developer',
-        year: 2018,
-        
-    },
+  {
+    descriptionTitle: 'Tonic',
+    descriptionItem: 'lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    tagBtn: ['Html', 'Css', 'Javascript', 'Github', 'Ruby', 'Bootstrap'],
+    headerImgM: './Assets/SnapshootPortfolio.png',
+    headerImgD: './Desktop/SnapshootDesktop.svg',
+    subHead: 'CANOPY',
+    job: 'Back End Dev',
+    year: 2015,
+
+  },
+  {
+    descriptionTitle: 'Multi-Post Stories',
+    descriptionItem: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    tagBtn: ['Html', 'Css', 'Javascript', 'Github', 'Ruby', 'Bootstrap'],
+    headerImgM: './Assets/SnapshootPortfolio1.png',
+    headerImgD: './Desktop/SnapshootDesktop2.svg',
+    subHead: 'FACEBOOK',
+    job: 'Full Stack Dev',
+    year: 2015,
+
+  },
+  {
+    descriptionTitle: 'Facebook 360',
+    descriptionItem: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    tagBtn: ['Html', 'Css', 'Javascript', 'Github', 'Ruby', 'Bootstrap'],
+    headerImgM: './Assets/SnapshootPortfolio2.png',
+    headerImgD: './Desktop/SnapshootDesktop3.svg',
+    subHead: 'Facebook',
+    job: 'Back End Dev',
+    year: 2015,
+  },
+  {
+    descriptionTitle: 'Uber Navigation',
+    descriptionItem: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    tagBtn: ['Html', 'Css', 'Javascript', 'Github', 'Ruby', 'Bootstrap'],
+    headerImgM: './Assets/SnapshootPortfolio3.png',
+    headerImgD: './Desktop/SnapshootDesktop4.svg',
+    subHead: 'Uber',
+    job: 'Lead Developer',
+    year: 2018,
+
+  },
 ];
 
-const modalsection= document.querySelector('.projects');
-for(let i=0;i<modals.length;i++){
-    modalsection.innerHTML += `
+const modalsection = document.querySelector('.projects');
+for (let i = 0; i < modals.length; i += 1) {
+  modalsection.innerHTML += `
     <div class="modal"></div>
     <div class=" modal-background">
         <div class="project-header ">
@@ -99,30 +99,26 @@ for(let i=0;i<modals.length;i++){
     `;
 }
 
-const modal= document.querySelectorAll('.modal');
+const modal = document.querySelectorAll('.modal');
 
-function modalOpen(index){
-    if(index>=0){
-        document.querySelectorAll('.modal')[index].style.display = 'block';
-        document.querySelectorAll('.modal-background')[index].style.display = 'flex';
-        const modalClose = document.querySelectorAll('.modal-close')[index];
-        modalClose.addEventListener('click',()=>{
-            modal[index].style.display = 'none';
-            document.querySelectorAll('.modal-background')[index].style.display = 'none';
-        });
-        window.addEventListener('click',(e)=>{
-            if(e.target === modal[index]){
-                modal[index].style.display = 'none';
-                document.querySelectorAll('.modal-background')[index].style.display = 'none';
-            }
-        });
-    }
-    else{
-        return 0;
-    }
+function modalOpen(index) {
+  if (index >= 0) {
+    document.querySelectorAll('.modal')[index].style.display = 'block';
+    document.querySelectorAll('.modal-background')[index].style.display = 'flex';
+    const modalClose = document.querySelectorAll('.modal-close')[index];
+    modalClose.addEventListener('click', () => {
+      modal[index].style.display = 'none';
+      document.querySelectorAll('.modal-background')[index].style.display = 'none';
+    });
+    window.addEventListener('click', (e) => {
+      if (e.target === modal[index]) {
+        modal[index].style.display = 'none';
+        document.querySelectorAll('.modal-background')[index].style.display = 'none';
+      }
+    });
+    return -1;
+  }
+  return 0;
 }
 
 modalOpen(-1);
-
-
-
