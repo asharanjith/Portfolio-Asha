@@ -187,7 +187,7 @@ body {
 
 .buttom-container {
   display: flex;
-  padding: 0 0 0 14px;
+  margin-left: 4%;
   justify-content: flex-start;
   align-items: center;
 }
@@ -237,7 +237,10 @@ body {
 .description-item {
   color: #344563;
 }
-
+.article-container{
+  align-self: flex-start;
+  margin-left: 3%;
+}
 .skills-box {
   display: flex;
   flex-direction: row;
@@ -470,3 +473,12 @@ body {
 .mobile-menu-items:hover {
   cursor: pointer;
 }
+.nodisplay{
+  display: none;
+ }
+ .modal-buttom-container{
+  width:80%;
+  display: flex;
+  justify-content: space-around;
+  margin:0;
+ }
