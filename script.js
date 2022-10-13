@@ -37,4 +37,3 @@ function goToContactSection() {
   window.location = '#contactMeID';
 }
 contactSection.addEventListener('click', goToContactSection);
-

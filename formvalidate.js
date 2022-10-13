@@ -17,7 +17,7 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-//Local Storage Implementation
+// Local Storage Implementation
 
 function storageAvailable(type) {
   let storage;
