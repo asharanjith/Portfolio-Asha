@@ -13,5 +13,6 @@ form.addEventListener('submit', (e) => {
   } else {
     validation.classList.add('contact-button-sucess');
     validation.innerHTML = `${errorMsg[1]}`;
+    form.submit();
   }
 });
