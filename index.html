@@ -156,12 +156,14 @@
               <p class="c-desc">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
             </div>
             <div class="form-container">
-              <form class="contact-form" action="https://formspree.io/f/xdojgvqp" method="post">
+              <form class="contact-form" id="contactForm" action="https://formspree.io/f/xdojgvqp" method="post">
                 <input type="text" name="Full Name" placeholder="Enter Full-name" class="customer-info" minlength="2" maxlength="30" required >
-                <input type="email" name="Email" placeholder="abc@example.com" class="customer-info" required>
+                <input type="email" id="emailAddress" name="Email" placeholder="abc@example.com" class="customer-info" required>
                 <textarea name="Message" rows="6" placeholder="Enter your message here" class="customer-message" required minlength="15" maxlength="500"></textarea>
                 <div class="submit-button">
-                  <button name="Submit" id="Button" class="submit">Get In Touch</button>                  
+                  <span id="validation-message"></span>
+                  <button name="Submit" id="Button" class="submit" type="submit">Get In Touch</button>  
+                                  
                 </div>
               </form>
             </div>
@@ -174,6 +176,6 @@
     <script src="script.js"></script>
     <script src="projects.js"></script>
     <script src="modals.js"></script>
-    <!-- <script src="lorem-js/lorem.js"></script> -->
+    <script src="formvalidate.js"></script>
 </body>
 </html>
