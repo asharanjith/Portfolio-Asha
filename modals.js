@@ -1,13 +1,15 @@
 const modals = [
   {
-    descriptionTitle: 'Tonic',
-    descriptionItem: 'lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    tagBtn: ['Html', 'Css', 'Javascript', 'Github', 'Ruby', 'Bootstrap'],
-    headerImgM: './Assets/SnapshootPortfolio.png',
-    headerImgD: './Desktop/SnapshootPortfoliofigma.svg',
-    subHead: 'CANOPY',
-    job: 'Back End Dev',
-    year: 2015,
+    descriptionTitle: 'Awesome-Books',
+    descriptionItem: 'In this project, we were able to build an application that stores a list of books added to the browsers localstorage and display their title and authors on the page. The goal of this project was to practice using classes instead of objects and arrays.',
+    tagBtn: ['Html', 'Css', 'Javascript', 'Github', ' ES6 syntax', 'Luxon'],
+    headerImgM: './Assets/AwesomeBookMobile.png',
+    headerImgD: './Desktop/AwesomeBook.png',
+    subHead: 'ES6',
+    job: 'Front End Dev',
+    year: 2022,
+    source: 'https://github.com/asharanjith/Awesome-Books-ES6',
+    link: 'https://asharanjith.github.io/Awesome-Books-ES6/',
 
   },
   {
@@ -19,6 +21,8 @@ const modals = [
     subHead: 'FACEBOOK',
     job: 'Full Stack Dev',
     year: 2015,
+    source: ' ',
+    link: ' ',
 
   },
   {
@@ -30,6 +34,8 @@ const modals = [
     subHead: 'Facebook',
     job: 'Back End Dev',
     year: 2015,
+    source: ' ',
+    link: ' ',
   },
   {
     descriptionTitle: 'Uber Navigation',
@@ -40,6 +46,8 @@ const modals = [
     subHead: 'Uber',
     job: 'Lead Developer',
     year: 2018,
+    source: ' ',
+    link: ' ',
 
   },
 ];
@@ -88,8 +96,8 @@ for (let i = 0; i < modals.length; i += 1) {
                     </div>
                     <div class="line"></div>
                     <div class="modal-buttom-container buttom-container">
-                        <button class="project-buttom" onClick="">See Live<i class="fa-sharp fa-solid fa-earth-americas"></i></button>
-                        <button class="project-buttom" onClick="">See Source<i class="fab fa-sharp fa-solid fa-github"></i></button>
+                        <form><button class="project-buttom" onClick="" formaction="${modals[i].link}">See Live<i class="fa-sharp fa-solid fa-earth-americas"></i></button></form>
+                        <form><button class="project-buttom" onClick="" formaction="${modals[i].source}">See Source<i class="fab fa-sharp fa-solid fa-github"></i></button></form>
                     </div>
                 </div>
             </div>

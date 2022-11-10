@@ -1,10 +1,10 @@
 const projectDetails = [
   {
-    descriptionTitle: 'Tonic',
-    descriptionItem: 'A daily selection of privately perosonalized reads; no accounts or sign-ups required.',
+    descriptionTitle: 'Awesome Books',
+    descriptionItem: 'In this project, we were able to build an application that stores a list of books added to the browsers localstorage and display their title and authors on the page.',
     tagBtn: ['Html', 'Css', 'Javascript', ''],
-    headerImgM: './Assets/SnapshootPortfolio.png',
-    headerImgD: './Desktop/SnapshootDesktop.svg',
+    headerImgM: './Assets/AwesomeBookMobile.png',
+    headerImgD: './Desktop/AwesomeBook.png',
     subHead: 'CANOPY',
     job: 'Back End Dev',
     year: 2015,

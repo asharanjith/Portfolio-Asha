@@ -49,6 +49,7 @@
 .modal-img {
   min-width: 80vw;
   max-height: 100vh;
+  max-width: 100%;
 }
 
 .fa-sharp {
