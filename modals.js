@@ -13,16 +13,16 @@ const modals = [
 
   },
   {
-    descriptionTitle: 'Multi-Post Stories',
-    descriptionItem: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    tagBtn: ['Html', 'Css', 'Javascript', 'Github', 'Ruby', 'Bootstrap'],
-    headerImgM: './Assets/SnapshootPortfolio1.png',
-    headerImgD: './Desktop/SnapshootDesktop2.svg',
-    subHead: 'FACEBOOK',
+    descriptionTitle: 'Money Minder App',
+    descriptionItem: 'The Budget Tracker app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    tagBtn: ['Ruby on Rails', 'Bootstrap', 'Render', 'Github', 'Postgres', 'Devise'],
+    headerImgM: './Desktop/MoneyMinder.png',
+    headerImgD: './Desktop/MoneyMinder.png',
+    subHead: 'Backend',
     job: 'Full Stack Dev',
-    year: 2015,
-    source: ' ',
-    link: ' ',
+    year: 2023,
+    source: 'https://github.com/asharanjith/Budget-Tracker',
+    link: 'https://money-minder-djf9.onrender.com',
 
   },
   {
